@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/back.jpg);
+    color: #435585;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+form h3{
+    text-align: center;
+    text-transform: uppercase;
+    color:#F4CE14;
+}
+img{
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+form h4 {
+    text-transform: capitalize;
+    text-align: center;
+}
+form .blockElements{
+    display: block;
+}
+form .ip {
+    width: 90%;
+    height: 40px;
+    border-radius: 7px;
+    border-color: #435585;
+    color: rgb(30, 48, 80);
+    padding-inline-start: 30px;
+}
+form label{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#mail, #password{
+    margin: 15px 0px;
+    position: relative;
+}
+form #mail, #password, #rem, button{
+    margin: 20px 0px;
+}
+form #rem{
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4CE14;
+    border: 1.5px solid #435585;
+    border-bottom-width: 5px;
+    color: rgb(30, 48, 80);
+    font-size: 18px;
+    align-content: center;
+    margin: 10px 0px;
+}
+.fa-envelope, .fa-lock{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+.fa-right-to-bracket{
+    position: absolute;
+    margin: 0px 10px;
+}
+p{
+    color: rgb(30, 48, 80);
+    font-size: 18px;
+}
+p a{
+    color: rgb(0, 115, 210);
+}
